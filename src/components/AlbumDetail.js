@@ -5,7 +5,7 @@ import Card from './Card';
 const AlbumDetail = (props) => {
   return (
     <Card>
-      <Text>{props.album.title}</Text>
+      <Text>{props.openaps}</Text>
     </Card>
   );
 };
