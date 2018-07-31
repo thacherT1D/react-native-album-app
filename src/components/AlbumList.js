@@ -8,7 +8,8 @@ class AlbumList extends Component {
 
   componentWillMount() {
     axios.get('https://thachert1d-nightscout.herokuapp.com/api/v1/devicestatus')
-      // .then(response => console.log(response.data));
+      // .then(response => console.log(response.data[0]));
+      // .then(response => this.setState({ readings: response.data }));
       .then(response => this.setState({ readings: response.data }));
   }
 
