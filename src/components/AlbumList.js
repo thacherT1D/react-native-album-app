@@ -20,7 +20,7 @@ class AlbumList extends Component {
   }
 
   render() {
-    console.log(this.state);
+    console.log(this.state.readings[0]);
     return (
       <View>
         {this.renderReadings()}
