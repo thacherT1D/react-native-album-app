@@ -14,7 +14,7 @@ class AlbumList extends Component {
 
   renderReadings() {
     return this.state.readings.map(reading =>
-      <AlbumDetail key={reading.data} reading={reading.device} />
+      <AlbumDetail key={reading._id} reading={reading} />
     );
   }
 
